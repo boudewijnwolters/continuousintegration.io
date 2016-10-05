@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^continuousintegration\.io [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://continuousintegration.io/$1 [R,L]
