@@ -1,0 +1,17 @@
+title: Continuous Integration & Continuous Delivery Apps
+
+description: >
+  The best apps for Continuous Integration & Continuous Delivery
+
+baseurl: ""
+url: ""
+twitter_username: CiCdApps
+github_username:  boudewijnwolters
+
+exclude:
+    - 'node_modules'
+    - 'sources'
+    - 'Gemfile'
+    - 'Gemfile.lock'
+
+markdown: kramdown
