@@ -1,10 +1,12 @@
-title: Continuous Integration & Continuous Delivery Apps
+title: Site title
 
 description: >
-  The best apps for Continuous Integration & Continuous Delivery
+  Site description
 
-baseurl: ""
-url: ""
+baseurl: 'http://wp.pl'
+url: ''
+port: 3000
+
 twitter_username: CiCdApps
 github_username:  boudewijnwolters
 
@@ -13,5 +15,11 @@ exclude:
     - 'sources'
     - 'Gemfile'
     - 'Gemfile.lock'
+    - 'gulpfile.js'
+    - 'package.json'
 
 markdown: kramdown
+
+sass:
+    sass_dir: _sass
+    style: compressed
