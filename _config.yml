@@ -9,6 +9,7 @@ port: 3000
 
 twitter_username: CiCdApps
 github_username:  boudewijnwolters
+google_analytics:  'UA-85233914-1'
 
 exclude:
     - 'node_modules'

@@ -1,0 +1,35 @@
+@function px2rem($px) {
+	@return ($px / $base-font-size) * 1rem;
+}
+
+
+@mixin mq($from) {
+	$media-query: '';
+	$min-width: 0;
+
+	@if type-of($from) == number {
+		$min-width: $from;
+	} @else {
+		$min-width: map-get($mq-breakpoints, $from);
+	}
+
+	@if $min-width != 0 {
+		$media-query: '#{$media-query} and (min-width: #{$min-width})';
+	}
+
+	$media-query: str-slice(unquote($media-query), 6);
+
+	@media #{$media-query} {
+		@content;
+	}
+}
+
+@mixin hidpi($ratio: 1.3) {
+	@media only screen and (-webkit-min-device-pixel-ratio: $ratio),
+	only screen and (min--moz-device-pixel-ratio: $ratio),
+	only screen and (-o-min-device-pixel-ratio: #{$ratio}/1),
+	only screen and (min-resolution: round($ratio * 96dpi)),
+	only screen and (min-resolution: $ratio * 1dppx) {
+		@content;
+	}
+}

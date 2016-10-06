@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+
+html {
+	font-family: "Noto Serif", serif;
+	font-size: 14px;
+	line-height: (31/19);
+
+	@include mq(md) {
+		font-size: 16px;
+	}
+}
+
+body {
+	background-color: #fff;
+	position: relative;
+	overflow-y: scroll;
+	margin: auto;
+	font-family: "Noto Serif", sans-serif;
+	font-size: px2rem(19px);
+	color: #444;
+
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-ms-text-size-adjust: 100%;
+}
