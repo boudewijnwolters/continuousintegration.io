@@ -17,9 +17,8 @@ body {
   position: relative;
   overflow-y: scroll;
   margin: auto;
-  font-family: "Noto Serif", sans-serif;
   font-size: 1.1875rem;
-  color: #444;
+  color: #666;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -ms-text-size-adjust: 100%; }
@@ -87,7 +86,9 @@ body {
     display: none; }
   .wysiwyg h1, .wysiwyg h2, .wysiwyg h3, .wysiwyg h4, .wysiwyg h5, .wysiwyg h6 {
     font-weight: 700;
-    line-height: 1.2; }
+    line-height: 1.2;
+    font-family: "Lato", sans-serif;
+    color: #333; }
   .wysiwyg h1:first-child, .wysiwyg h2:first-child, .wysiwyg h3:first-child, .wysiwyg h4:first-child, .wysiwyg h5:first-child, .wysiwyg h6:first-child {
     margin-top: 0; }
   .wysiwyg h1 {
@@ -204,3 +205,25 @@ body {
     background-color: #fff; }
   .wysiwyg tbody tr {
     background-color: #fff; }
+
+.pagination {
+  margin: 4rem 0;
+  text-align: center; }
+  .pagination > span,
+  .pagination > a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    text-align: center;
+    font: 900 14px/31px "Lato", sans-serif;
+    color: #fff;
+    background: #262626;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: .3s background; }
+    .pagination > span.current,
+    .pagination > a.current {
+      background: #b3b3b1; }
+  .pagination > a:hover {
+    background: #228ae6; }

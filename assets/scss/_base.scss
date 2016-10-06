@@ -6,7 +6,7 @@
 }
 
 html {
-	font-family: "Noto Serif", serif;
+	font-family: $font-serif;
 	font-size: 14px;
 	line-height: (31/19);
 
@@ -20,9 +20,8 @@ body {
 	position: relative;
 	overflow-y: scroll;
 	margin: auto;
-	font-family: "Noto Serif", sans-serif;
 	font-size: px2rem(19px);
-	color: #444;
+	color: $color-text;
 
 	-webkit-text-size-adjust: 100%;
 	-webkit-font-smoothing: antialiased;
