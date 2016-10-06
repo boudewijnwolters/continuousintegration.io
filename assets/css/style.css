@@ -24,11 +24,12 @@ body {
   -ms-text-size-adjust: 100%; }
 
 .page-content {
-  padding: 5rem 0; }
+  margin: 5rem 0; }
 
 .container {
   max-width: 700px;
-  margin: auto; }
+  margin: auto;
+  padding: 0 2rem; }
 
 /*! wysiwyg.css v0.0.2 | MIT License | github.com/jgthms/wysiwyg.css */
 .wysiwyg {
@@ -88,7 +89,7 @@ body {
     font-weight: 700;
     line-height: 1.2;
     font-family: "Lato", sans-serif;
-    color: #333; }
+    color: #262626; }
   .wysiwyg h1:first-child, .wysiwyg h2:first-child, .wysiwyg h3:first-child, .wysiwyg h4:first-child, .wysiwyg h5:first-child, .wysiwyg h6:first-child {
     margin-top: 0; }
   .wysiwyg h1 {
@@ -226,4 +227,105 @@ body {
     .pagination > a.current {
       background: #b3b3b1; }
   .pagination > a:hover {
-    background: #228ae6; }
+    background: #40c057; }
+
+/*!
+ *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../fonts/fontawesome-webfont.eot?v=4.6.3");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.6.3") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.6.3") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.6.3") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.fa-twitter:before {
+  content: "\f099"; }
+
+.fa-github:before {
+  content: "\f09b"; }
+
+.fa-feed:before,
+.fa-rss:before {
+  content: "\f09e"; }
+
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  content: "\f0c9"; }
+
+.header {
+  text-align: center;
+  margin: 4rem 0; }
+  @media (min-width: 980px) {
+    .header {
+      margin: 6rem 0; } }
+  .header h1 {
+    font-size: 3.125rem;
+    font-weight: 900;
+    font-family: "Lato", sans-serif;
+    line-height: 1;
+    color: #262626;
+    margin: 0 0 1rem; }
+    .header h1 a {
+      text-decoration: none;
+      color: inherit; }
+
+.header-logo {
+  display: block;
+  width: 6rem;
+  height: 6rem;
+  margin: 0 auto 26px;
+  border-radius: 50%;
+  background: url(../img/me.jpg) no-repeat;
+  background-size: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 1px #ebebeb; }
+  .header-logo svg {
+    display: block;
+    margin: 1.75rem auto;
+    height: 2.5rem; }
+
+.header-description {
+  max-width: 680px;
+  margin: 0 auto 1.5rem; }
+
+.header-social {
+  text-align: center; }
+  .header-social a {
+    margin: 0 4px;
+    font: 22px "Font Awesome";
+    color: #777;
+    opacity: .6;
+    transition: .3s color; }
+    .header-social a:hover {
+      color: #262626; }
+
+.burger-menu {
+  position: fixed;
+  display: block;
+  width: 40px;
+  height: 40px;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 40px;
+  color: #fff;
+  background: #262626;
+  border-radius: 3px;
+  z-index: 10;
+  transition: .3s background; }
+  .burger-menu:hover {
+    background: #40c057; }

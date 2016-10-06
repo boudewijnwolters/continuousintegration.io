@@ -1,0 +1,83 @@
+.header {
+	text-align: center;
+	margin: 4rem 0;
+
+	@include mq(md) {
+		margin: 6rem 0;
+	}
+
+	h1 {
+		font-size: px2rem(50px);
+		font-weight: 900;
+		font-family: $font-sans;
+		line-height: 1;
+		color: $color-dark;
+		margin: 0 0 1rem;
+
+		a {
+			text-decoration: none;
+			color: inherit;
+		}
+	}
+}
+
+.header-logo {
+	display: block;
+	width: 6rem;
+	height: 6rem;
+	margin: 0 auto 26px;
+	border-radius: 50%;
+
+	background: url(../img/me.jpg) no-repeat;
+	background-size: cover;
+	border: 3px solid #fff;
+	box-shadow: 0 0 0 1px #ebebeb;
+
+	svg {
+		display: block;
+		margin: 1.75rem auto;
+		height: 2.5rem;
+	}
+}
+
+.header-description {
+	max-width: 680px;
+	margin: 0 auto 1.5rem;
+}
+
+.header-social {
+	text-align: center;
+
+	a {
+		margin: 0 4px;
+		font: 22px $font-icons;
+		color: #777;
+		opacity: .6;
+		transition: .3s color;
+
+		&:hover {
+			color: $color-dark;
+		}
+	}
+}
+
+.burger-menu {
+	position: fixed;
+	display: block;
+	width: 40px;
+	height: 40px;
+	top: 10px;
+	left: 10px;
+	text-align: center;
+	font-size: 22px;
+	line-height: 40px;
+	color: #fff;
+	background: $color-dark;
+	border-radius: 3px;
+	z-index: 10;
+	transition: .3s background;
+
+	&:hover {
+		background: $color-brand;
+	}
+}

@@ -1,0 +1,27 @@
+.pagination {
+	margin: 4rem 0;
+	text-align: center;
+
+	> span,
+	> a {
+		display: inline-block;
+		height: 30px;
+		width: 30px;
+		margin: 0;
+		text-align: center;
+		font: 900 14px/31px $font-sans;
+		color: #fff;
+		background: #262626;
+		border-radius: 3px;
+		text-decoration: none;
+		transition: .3s background;
+
+		&.current {
+			background: #b3b3b1;
+		}
+	}
+
+	> a:hover {
+		background: $color-brand;
+	}
+}
