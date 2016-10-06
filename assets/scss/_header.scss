@@ -28,16 +28,9 @@
 	margin: 0 auto 26px;
 	border-radius: 50%;
 
-	background: url(../img/me.jpg) no-repeat;
-	background-size: cover;
+	background: url(../img/logo.svg) no-repeat center/cover;
 	border: 3px solid #fff;
 	box-shadow: 0 0 0 1px #ebebeb;
-
-	svg {
-		display: block;
-		margin: 1.75rem auto;
-		height: 2.5rem;
-	}
 }
 
 .header-description {

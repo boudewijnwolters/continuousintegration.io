@@ -1,7 +1,5 @@
-title: Site title
-
-description: >
-  Site description
+title: CI/CD Apps
+description: The best apps for Continuous Integration & Continuous Delivery
 
 baseurl: 'http://wp.pl'
 url: ''

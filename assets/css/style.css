@@ -23,6 +23,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -ms-text-size-adjust: 100%; }
 
+.clearfix:after, .about:after {
+  content: '';
+  display: table;
+  clear: both; }
+
 .page-content {
   margin: 5rem 0; }
 
@@ -282,20 +287,15 @@ body {
       text-decoration: none;
       color: inherit; }
 
-.header-logo {
+.header-logo, .about-photo {
   display: block;
   width: 6rem;
   height: 6rem;
   margin: 0 auto 26px;
   border-radius: 50%;
-  background: url(../img/me.jpg) no-repeat;
-  background-size: cover;
+  background: url(../img/logo.svg) no-repeat center/cover;
   border: 3px solid #fff;
   box-shadow: 0 0 0 1px #ebebeb; }
-  .header-logo svg {
-    display: block;
-    margin: 1.75rem auto;
-    height: 2.5rem; }
 
 .header-description {
   max-width: 680px;
@@ -329,3 +329,22 @@ body {
   transition: .3s background; }
   .burger-menu:hover {
     background: #40c057; }
+
+.footer {
+  font-size: 0.875rem;
+  margin: 4rem 0;
+  color: #b3b3b1; }
+
+.about {
+  font-size: 0.9375rem;
+  margin: 6rem 0;
+  color: #b3b3b1; }
+  .about h4 {
+    margin: 0; }
+
+.about-photo {
+  float: left;
+  margin: 0 1rem 1rem 0;
+  width: 4rem;
+  height: 4rem;
+  background: url(../img/me.jpg) no-repeat center/cover; }

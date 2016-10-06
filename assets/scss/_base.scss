@@ -27,3 +27,11 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-ms-text-size-adjust: 100%;
 }
+
+.clearfix {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}

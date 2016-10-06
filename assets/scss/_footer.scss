@@ -1,0 +1,26 @@
+.footer {
+	font-size: px2rem(14px);
+	margin: 4rem 0;
+	color: #b3b3b1;
+}
+
+
+.about {
+	font-size: px2rem(15px);
+	margin: 6rem 0;
+	color: #b3b3b1;
+	@extend .clearfix;
+
+	h4 {
+		margin: 0;
+	}
+}
+
+.about-photo {
+	@extend .header-logo;
+	float: left;
+	margin: 0 1rem 1rem 0;
+	width: 4rem;
+	height: 4rem;
+	background: url(../img/me.jpg) no-repeat center/cover;
+}
