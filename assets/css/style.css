@@ -255,6 +255,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.fa-heart:before {
+  content: "\f004"; }
+
 .fa-twitter:before {
   content: "\f099"; }
 
@@ -289,11 +292,13 @@ body {
 
 .header-logo, .about-photo {
   display: block;
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   margin: 0 auto 1.5rem;
   border-radius: 50%;
-  background: url(../img/logo.svg) no-repeat center/cover; }
+  background: url(../img/logo.svg) no-repeat center/cover;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 1px #ebebeb; }
 
 .header-description {
   max-width: 680px;
@@ -331,7 +336,10 @@ body {
 .footer {
   font-size: 0.875rem;
   margin: 4rem 0;
-  color: #b3b3b1; }
+  text-align: center; }
+  .footer i {
+    color: #cc0000;
+    font-size: .8em; }
 
 .about {
   font-size: 0.9375rem;
