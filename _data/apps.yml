@@ -1,0 +1,59 @@
+-
+  name: Bitrise
+  description: Automate your iOS development - From building through testing to deployment Bitrise can automate your daily development tasks.
+  url: https://www.bitrise.io
+  logo: bitrise.svg
+
+-
+  name: CircleCI
+  description: CircleCI provides development teams the confidence to build, test, and deploy - quickly and consistently - across numerous platforms.
+  url: https://circleci.com
+  logo: circleci.svg
+
+-
+  name: Codeship
+  description: Codeship is a hosted Continuous Delivery Service that integrates with GitHub and Bitbucket.
+  url: https://codeship.com
+  logo: codeship.svg
+
+-
+  name: DeployBot
+  description: Deploy your apps from GitHub, Bitbucket or any Git repository to any hosting platform of your choice.
+  url: https://deploybot.com/
+  logo: deploybot.png
+
+-
+  name: FTPloy
+  description: Goodbye drag & drop. Hello push & deploy. It's time to say goodbye to your FTP client of old and embrace git deployment.
+  url: https://ftploy.com/
+  logo: ftploy.png
+
+-
+  name: Jenkins
+  description: With hundreds of plugins in the Update Center, Jenkins integrates with practically every tool in the continuous integration and continuous delivery toolchain.
+  url: https://jenkins.io/
+  logo: jenkins.svg
+
+-
+  name: GitLab
+  description: Provides Git repository management, code reviews, issue tracking, activity feeds and wikis.
+  url: https://gitlab.com/
+  logo: gitlab.svg
+
+-
+  name: Shippable
+  description: Accelerate the process of shipping software. A streamlined continuous deployment platform to modernize your software organization.
+  url: https://app.shippable.com
+  logo: shippable.svg
+
+-
+  name: Travis CI
+  description: A hosted continuous integration service for open source projects. It supports Ruby, PHP, Python, Java, Node.js, and many more.
+  url: https://travis-ci.org/
+  logo: travisci.svg
+
+-
+  name: TeamCity
+  description: Perform better. Do you practice a traditional approach to Continuous Integration, or prefer Feature Branches with Git or Mercurial?
+  url: https://www.jetbrains.com/teamcity/
+  logo: teamcity.svg

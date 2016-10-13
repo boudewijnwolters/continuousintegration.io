@@ -1,0 +1,72 @@
+.comparsion-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+.comparsion-card {
+	background: #fff;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.05),0 1px 1px rgba(0,0,0,.1);
+	border-radius: 3px;
+	position: relative;
+	margin: 1rem;
+	padding: 1.5rem;
+	text-align: center;
+	flex-basis: 200px;
+	display: flex;
+	flex-direction: column;
+
+	h3 {
+		color: $color-dark;
+		font-weight: 300;
+		font-size: 1.4em;
+		margin: 0 0 1rem;
+	}
+
+	p {
+		font-size: px2rem(15px);
+		color: $color-gray;
+		font-weight: 300;
+
+		&.app-description {
+			flex: 1;
+		}
+
+		+ p {
+			margin-top: 1.5em;
+		}
+	}
+
+	img {
+		display: block;
+		max-width: 100px;
+		max-height: 100px;
+		margin: 0 auto 1em;
+		border-radius: 3px;
+	}
+
+	a {
+		display: inline-block;
+		font-weight: 400;
+		text-transform: uppercase;
+		border: 1px solid $color-brand;
+		padding: 4px 16px;
+		border-radius: 8px;
+		transition: .3s color, .3s background;
+
+		&:hover {
+			background: $color-brand;
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+}
+
+.comparsion-footer {
+	text-align: center;
+	font-weight: 300;
+	margin: 3rem 0 6rem;
+	font-size: px2rem(22px);
+	color: $color-muted;
+}
