@@ -1,11 +1,8 @@
-<section class="about">
-	<div class="container">
-		<span class="about-photo"></span>
-		<p>Hi! I’m Boudewijn Wolters. I created this site to compare most and less popular apps for Continuous Integration and Continuous Delivery. If you found any bug or you know other apps let me know at boudewijn.wolters(at)gmail.com or via
-			<a href="https://github.com/boudewijnwolters/continuousintegration.io/issues/new" target="_blank">GitHub issue</a>.</p>
-	</div>
-</section>
 
 <footer class="footer">
-	<div class="container">Made with <i class="fa fa-heart"></i> and a little bit of Jekyll</div>
+	<div class="container">Made with <i class="fa fa-heart"></i> and a little bit of Jekyll. <a href="/about.html">About project</a>.</div>
 </footer>
+
+{% if jekyll.environment == "production" %}
+{% include google-analytics.html %}
+{% endif %}

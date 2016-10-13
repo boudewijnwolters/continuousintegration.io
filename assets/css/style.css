@@ -105,7 +105,7 @@ a {
   .wysiwyg h1, .wysiwyg h2, .wysiwyg h3, .wysiwyg h4, .wysiwyg h5, .wysiwyg h6 {
     font-weight: 700;
     line-height: 1.2;
-    color: #222; }
+    color: #444; }
   .wysiwyg h1:first-child, .wysiwyg h2:first-child, .wysiwyg h3:first-child, .wysiwyg h4:first-child, .wysiwyg h5:first-child, .wysiwyg h6:first-child {
     margin-top: 0; }
   .wysiwyg h1 {
