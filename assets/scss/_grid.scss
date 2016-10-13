@@ -7,3 +7,13 @@
 	margin: auto;
 	padding: 0 2rem;
 }
+
+.container-wide {
+	@extend .container;
+	max-width: 960px;
+}
+
+.container-ultra {
+	@extend .container;
+	max-width: 1400px;
+}

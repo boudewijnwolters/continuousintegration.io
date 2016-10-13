@@ -13,7 +13,7 @@
 .about {
 	font-size: px2rem(15px);
 	margin: 6rem 0;
-	color: #b3b3b1;
+	color: $color-muted;
 	@extend .clearfix;
 
 	h4 {

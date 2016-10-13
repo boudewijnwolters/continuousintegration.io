@@ -6,7 +6,7 @@
 }
 
 html {
-	font-family: $font-serif;
+	font-family: $font-default;
 	font-size: 14px;
 	line-height: (31/19);
 
@@ -33,5 +33,14 @@ body {
 		content: '';
 		display: table;
 		clear: both;
+	}
+}
+
+a {
+	color: $color-brand;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
 	}
 }

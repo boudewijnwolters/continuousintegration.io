@@ -2,55 +2,18 @@
 layout: default
 ---
 
-<article class="container wysiwyg">
-	<h2>We found them.</h2>
-	<p>Where'd you get the coconuts? Found them? In Mercia?! The coconut's tropical! Ni! Ni! Ni! Ni! Well, how'd you become king, then?</p>
-	<p>Ah, now we see the violence inherent in the system! Be quiet! <strong> I'm not a witch.</strong> <em> He hasn't got shit all over him.</em> Well, I didn't vote for you.</p>
-	<h3>I'm not a witch.</h3>
-	<p>I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now
-		leave before I am forced to taunt you a second time! The Knights Who Say Ni demand a sacrifice!</p>
-	<ol>
-		<li>It's only a model.</li>
-		<li>Why?</li>
-		<li>Why?</li>
-	</ol>
-
-	<h4>How do you know she is a witch?</h4>
-	<p>I am your king. Did you dress her up like this? Why? We found them. No, no, no! Yes, yes. A bit. But she's got a wart.</p>
-	<ul>
-		<li>I'm not a witch.</li>
-		<li>She looks like one.</li>
-		<li>Well, we did do the nose.</li>
-	</ul>
-
-	<p>Be quiet! The swallow may fly south with the sun, and the house martin or the plover may seek warmer climes in winter, yet these are not strangers to our land. Who's that then?
-		Listen.
-		Strange women lying in ponds distributing swords is no basis for a system of government. Supreme executive power derives from a mandate from the masses, not from some farcical
-		aquatic
-		ceremony.</p>
-	<p>The Knights Who Say Ni demand a sacrifice! But you are dressed as one… Now, look here, my good man. I am your king. The Knights Who Say Ni demand a sacrifice!</p>
-	<p>Look, my liege! Who's that then? Bloody Peasant! On second thoughts, let's not go there. It is a silly place. The nose?</p>
-	<p>Well, I got better. But you are dressed as one… Bloody Peasant! Well, I got better. But you are dressed as one… Well, what do you want?</p>
-	<p>Found them? In Mercia?! The coconut's tropical! …Are you suggesting that coconuts migrate? Now, look here, my good man. You don't vote for kings.</p>
-	<p>Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods. She looks like one. Why? I have to push the pram a lot. He hasn't got shit all over
-		him.
-		And this isn't my nose. This is a false one.</p>
-	<p>Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods. The nose? We shall say 'Ni' again to you, if you do not appease us. Well, I didn't vote
-		for
-		you. Well, what do you want?</p>
-	<p>Well, we did do the nose. No, no, no! Yes, yes. A bit. But she's got a wart. The Knights Who Say Ni demand a sacrifice! The swallow may fly south with the sun, and the house martin or
-		the
-		plover may seek warmer climes in winter, yet these are not strangers to our land.</p>
-	<p>Look, my liege! Well, we did do the nose. Shh! Knights, I bid you welcome to your new home. Let us ride to Camelot! The nose? The Lady of the Lake, her arm clad in the purest
-		shimmering
-		samite, held aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. That is why I am your king.</p>
-	<p>Where'd you get the coconuts? Now, look here, my good man. Why? On second thoughts, let's not go there. It is a silly place. Found them? In Mercia?! The coconut's tropical!</p>
-	<p>Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods. Well, what do you want? I dunno. Must be a king. You don't vote for kings.</p>
-</article>
-
-<footer class="pagination">
-	<span class="current">1</span>
-	<a href="/page/2">2</a>
-	<a href="/page/3">3</a>
-	<a href="/page/2" id="older">›</a>
-</footer>
+<div class="container-ultra">
+	<div class="comparsion-wrap">
+		{% for app in site.data.apps %}
+		<div class="comparsion-card">
+			<img src="/assets/img/apps/{{ app.logo }}" alt="{{ app.name }}">
+			<h3>{{ app.name }}</h3>
+			<p class="app-description">{{ app.description }}</p>
+			<p><a href="{{ app.url }}?ref=continuousintegration.io" target="_blank">Check</a></p>
+		</div>
+		{% endfor %}
+	</div>
+	<div class="comparsion-footer">
+		More apps and comparsion table soon...
+	</div>
+</div>
