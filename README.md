@@ -26,36 +26,36 @@ Coming soon at [continuousintegration.io](http://continuousintegration.io/).
 * gitlab
 * other git hostings
 * supported languages (build server)
-** .net
-** android
-** c++
-** erlang
-** go
-** ios
-** java
-** js
-** node js
-** perl
-** php
-** python
-** rails
-** ruby
-** scala
+   * .net
+   * android
+   * c++
+   * erlang
+   * go
+   * ios
+   * java
+   * js
+   * node js
+   * perl
+   * php
+   * python
+   * rails
+   * ruby
+   * scala
 * delivery
-** amazon beanstalk
-** amazon s3
-** Azure
-** bigcommerce
-** dokku
-** FTP/FTPS
-** git push
-** google app engine
-** Google cloud storage
-** Google compute engine
-** Heroku
-** modulus
-** SFTP
-** shopify
+   * amazon beanstalk
+   * amazon s3
+   * Azure
+   * bigcommerce
+   * dokku
+   * FTP/FTPS
+   * git push
+   * google app engine
+   * Google cloud storage
+   * Google compute engine
+   * Heroku
+   * modulus
+   * SFTP
+   * shopify
 * yml
 * GUI configuration
 * trigger mode
