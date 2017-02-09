@@ -12,7 +12,7 @@
 
 -
   name: Codeship
-  description: Codeship is a hosted Continuous Delivery Service that integrates with GitHub and Bitbucket.
+  description: Codeship is a hosted Continuous Integration & Delivery Service that integrates with Bitbucket, GitHub and GitLab.
   url: https://codeship.com
   logo: codeship.svg
 
