@@ -1,0 +1,25 @@
+.posts {
+	margin: 0 0 6rem;
+}
+
+.post {
+	margin: 0 0 6rem;
+}
+
+.post-title {
+	margin: 0 0 1rem;
+
+	a {
+		color: inherit;
+	}
+}
+
+.post-meta {
+	color: $color-muted;
+	margin: -1rem 0 1rem;
+	font-size: px2rem(14px);
+}
+
+.post-content {
+	@extend .wysiwyg;
+}

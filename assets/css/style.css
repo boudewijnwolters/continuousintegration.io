@@ -49,178 +49,181 @@ a {
   max-width: 1400px; }
 
 /*! wysiwyg.css v0.0.2 | MIT License | github.com/jgthms/wysiwyg.css */
-.wysiwyg {
+.wysiwyg, .post-content {
   line-height: 1.6; }
-  .wysiwyg a {
+  .wysiwyg a, .post-content a {
     text-decoration: none; }
-  .wysiwyg a:hover {
+  .wysiwyg a:hover, .post-content a:hover {
     border-bottom: 1px solid; }
-  .wysiwyg abbr {
+  .wysiwyg abbr, .post-content abbr {
     border-bottom: 1px dotted;
     cursor: help; }
-  .wysiwyg cite {
+  .wysiwyg cite, .post-content cite {
     font-style: italic; }
-  .wysiwyg hr {
+  .wysiwyg hr, .post-content hr {
     background: #e6e6e6;
     border: none;
     display: block;
     height: 1px;
     margin-bottom: 1.4em;
     margin-top: 1.4em; }
-  .wysiwyg img {
-    vertical-align: text-bottom; }
-  .wysiwyg ins {
+  .wysiwyg img, .post-content img {
+    vertical-align: text-bottom;
+    max-width: 100%; }
+  .wysiwyg ins, .post-content ins {
     background-color: lime;
     text-decoration: none; }
-  .wysiwyg mark {
+  .wysiwyg mark, .post-content mark {
     background-color: #ff0; }
-  .wysiwyg small {
+  .wysiwyg small, .post-content small {
     font-size: 0.8em; }
-  .wysiwyg strong {
+  .wysiwyg strong, .post-content strong {
     font-weight: 700; }
-  .wysiwyg sub, .wysiwyg sup {
+  .wysiwyg sub, .post-content sub, .wysiwyg sup, .post-content sup {
     font-size: 0.8em; }
-  .wysiwyg sub {
+  .wysiwyg sub, .post-content sub {
     vertical-align: sub; }
-  .wysiwyg sup {
+  .wysiwyg sup, .post-content sup {
     vertical-align: super; }
-  .wysiwyg p,
-  .wysiwyg dl,
-  .wysiwyg ol,
-  .wysiwyg ul,
-  .wysiwyg blockquote,
-  .wysiwyg pre,
-  .wysiwyg table {
+  .wysiwyg p, .post-content p,
+  .wysiwyg dl, .post-content dl,
+  .wysiwyg ol, .post-content ol,
+  .wysiwyg ul, .post-content ul,
+  .wysiwyg blockquote, .post-content blockquote,
+  .wysiwyg pre, .post-content pre,
+  .wysiwyg table, .post-content table {
     margin-bottom: 1.4em; }
-  .wysiwyg p:last-child,
-  .wysiwyg dl:last-child,
-  .wysiwyg ol:last-child,
-  .wysiwyg ul:last-child,
-  .wysiwyg blockquote:last-child,
-  .wysiwyg pre:last-child,
-  .wysiwyg table:last-child {
+  .wysiwyg p:last-child, .post-content p:last-child,
+  .wysiwyg dl:last-child, .post-content dl:last-child,
+  .wysiwyg ol:last-child, .post-content ol:last-child,
+  .wysiwyg ul:last-child, .post-content ul:last-child,
+  .wysiwyg blockquote:last-child, .post-content blockquote:last-child,
+  .wysiwyg pre:last-child, .post-content pre:last-child,
+  .wysiwyg table:last-child, .post-content table:last-child {
     margin-bottom: 0; }
-  .wysiwyg p:empty {
+  .wysiwyg p:empty, .post-content p:empty {
     display: none; }
-  .wysiwyg h1, .wysiwyg h2, .wysiwyg h3, .wysiwyg h4, .wysiwyg h5, .wysiwyg h6 {
+  .wysiwyg h1, .post-content h1, .wysiwyg h2, .post-content h2, .wysiwyg h3, .post-content h3, .wysiwyg h4, .post-content h4, .wysiwyg h5, .post-content h5, .wysiwyg h6, .post-content h6 {
     font-weight: 700;
     line-height: 1.2;
     color: #444; }
-  .wysiwyg h1:first-child, .wysiwyg h2:first-child, .wysiwyg h3:first-child, .wysiwyg h4:first-child, .wysiwyg h5:first-child, .wysiwyg h6:first-child {
+  .wysiwyg h1:first-child, .post-content h1:first-child, .wysiwyg h2:first-child, .post-content h2:first-child, .wysiwyg h3:first-child, .post-content h3:first-child, .wysiwyg h4:first-child, .post-content h4:first-child, .wysiwyg h5:first-child, .post-content h5:first-child, .wysiwyg h6:first-child, .post-content h6:first-child {
     margin-top: 0; }
-  .wysiwyg h1 {
+  .wysiwyg h1, .post-content h1 {
     font-size: 2.4em;
     margin-bottom: .58333em;
     margin-top: .58333em;
     line-height: 1; }
-  .wysiwyg h2 {
+  .wysiwyg h2, .post-content h2 {
     font-size: 1.6em;
     margin-bottom: .875em;
     margin-top: 1.75em;
     line-height: 1.1; }
-  .wysiwyg h3 {
+  .wysiwyg h3, .post-content h3 {
     font-size: 1.3em;
     margin-bottom: 1.07692em;
     margin-top: 1.07692em; }
-  .wysiwyg h4 {
+  .wysiwyg h4, .post-content h4 {
     font-size: 1.2em;
     margin-bottom: 1.16667em;
     margin-top: 1.16667em; }
-  .wysiwyg h5 {
+  .wysiwyg h5, .post-content h5 {
     font-size: 1.1em;
     margin-bottom: 1.27273em;
     margin-top: 1.27273em; }
-  .wysiwyg h6 {
+  .wysiwyg h6, .post-content h6 {
     font-size: 1em;
     margin-bottom: 1.4em;
     margin-top: 1.4em; }
-  .wysiwyg dd {
+  .wysiwyg dd, .post-content dd {
     margin-left: 1.4em; }
-  .wysiwyg ol,
-  .wysiwyg ul {
+  .wysiwyg ol, .post-content ol,
+  .wysiwyg ul, .post-content ul {
     list-style-position: outside;
     margin-left: 1.4em; }
-  .wysiwyg ol {
+  .wysiwyg ol, .post-content ol {
     list-style-type: decimal; }
-  .wysiwyg ol ol {
+  .wysiwyg ol ol, .post-content ol ol {
     list-style-type: lower-alpha; }
-  .wysiwyg ol ol ol {
+  .wysiwyg ol ol ol, .post-content ol ol ol {
     list-style-type: lower-roman; }
-  .wysiwyg ol ol ol ol {
+  .wysiwyg ol ol ol ol, .post-content ol ol ol ol {
     list-style-type: lower-greek; }
-  .wysiwyg ol ol ol ol ol {
+  .wysiwyg ol ol ol ol ol, .post-content ol ol ol ol ol {
     list-style-type: decimal; }
-  .wysiwyg ol ol ol ol ol ol {
+  .wysiwyg ol ol ol ol ol ol, .post-content ol ol ol ol ol ol {
     list-style-type: lower-alpha; }
-  .wysiwyg ul {
+  .wysiwyg ul, .post-content ul {
     list-style-type: disc; }
-  .wysiwyg ul ul {
+  .wysiwyg ul ul, .post-content ul ul {
     list-style-type: circle; }
-  .wysiwyg ul ul ul {
+  .wysiwyg ul ul ul, .post-content ul ul ul {
     list-style-type: square; }
-  .wysiwyg ul ul ul ul {
+  .wysiwyg ul ul ul ul, .post-content ul ul ul ul {
     list-style-type: circle; }
-  .wysiwyg ul ul ul ul ul {
+  .wysiwyg ul ul ul ul ul, .post-content ul ul ul ul ul {
     list-style-type: disc; }
-  .wysiwyg ul ul ul ul ul ul {
+  .wysiwyg ul ul ul ul ul ul, .post-content ul ul ul ul ul ul {
     list-style-type: circle; }
-  .wysiwyg blockquote {
+  .wysiwyg blockquote, .post-content blockquote {
     border-left: 4px solid #e6e6e6;
     padding: 0.6em 1.2em; }
-  .wysiwyg blockquote p {
+  .wysiwyg blockquote p, .post-content blockquote p {
     margin-bottom: 0; }
-  .wysiwyg code, .wysiwyg kbd, .wysiwyg samp, .wysiwyg pre {
+  .wysiwyg code, .post-content code, .wysiwyg kbd, .post-content kbd, .wysiwyg samp, .post-content samp, .wysiwyg pre, .post-content pre {
     -moz-osx-font-smoothing: auto;
     -webkit-font-smoothing: auto;
     background-color: #f2f2f2;
-    color: #333;
-    font-size: 0.9em; }
-  .wysiwyg code, .wysiwyg kbd, .wysiwyg samp {
+    color: #444;
+    font-size: 0.85em; }
+  .wysiwyg code, .post-content code, .wysiwyg kbd, .post-content kbd, .wysiwyg samp, .post-content samp {
     border-radius: 3px;
     line-height: 1.77778;
     padding: 0.1em 0.4em 0.2em;
     vertical-align: baseline; }
-  .wysiwyg pre {
+  .wysiwyg pre, .post-content pre {
     overflow: auto;
     padding: 1em 1.2em; }
-  .wysiwyg pre code {
-    background: none;
-    font-size: 1em;
-    line-height: 1em; }
-  .wysiwyg figure {
-    margin-bottom: 2.8em;
-    text-align: center; }
-  .wysiwyg figure:first-child {
-    margin-top: 0; }
-  .wysiwyg figure:last-child {
-    margin-bottom: 0; }
-  .wysiwyg figcaption {
-    font-size: 0.8em;
-    margin-top: .875em; }
-  .wysiwyg table {
+    .wysiwyg pre code, .post-content pre code {
+      background: none;
+      font-size: 1em;
+      line-height: 1em; }
+  .wysiwyg figure, .post-content figure {
+    margin-bottom: 2em; }
+    .wysiwyg figure img, .post-content figure img {
+      display: block;
+      margin: 0 auto; }
+    .wysiwyg figure:first-child, .post-content figure:first-child {
+      margin-top: 0; }
+    .wysiwyg figure:last-child, .post-content figure:last-child {
+      margin-bottom: 0; }
+    .wysiwyg figure figcaption, .post-content figure figcaption {
+      font-size: 0.8em;
+      margin-top: .875em; }
+  .wysiwyg table, .post-content table {
     width: 100%; }
-  .wysiwyg table pre {
-    white-space: pre-wrap; }
-  .wysiwyg th, .wysiwyg td {
+    .wysiwyg table pre, .post-content table pre {
+      white-space: pre-wrap; }
+  .wysiwyg th, .post-content th, .wysiwyg td, .post-content td {
     font-size: 1em;
     padding: .7em;
     border: 1px solid #e6e6e6;
     line-height: 1.4; }
-  .wysiwyg thead tr,
-  .wysiwyg tfoot tr {
+  .wysiwyg thead tr, .post-content thead tr,
+  .wysiwyg tfoot tr, .post-content tfoot tr {
     background-color: #f5f5f5; }
-  .wysiwyg thead th,
-  .wysiwyg thead td,
-  .wysiwyg tfoot th,
-  .wysiwyg tfoot td {
+  .wysiwyg thead th, .post-content thead th,
+  .wysiwyg thead td, .post-content thead td,
+  .wysiwyg tfoot th, .post-content tfoot th,
+  .wysiwyg tfoot td, .post-content tfoot td {
     font-size: .9em;
     padding: .77778em; }
-  .wysiwyg thead th code,
-  .wysiwyg thead td code,
-  .wysiwyg tfoot th code,
-  .wysiwyg tfoot td code {
+  .wysiwyg thead th code, .post-content thead th code,
+  .wysiwyg thead td code, .post-content thead td code,
+  .wysiwyg tfoot th code, .post-content tfoot th code,
+  .wysiwyg tfoot td code, .post-content tfoot td code {
     background-color: #fff; }
-  .wysiwyg tbody tr {
+  .wysiwyg tbody tr, .post-content tbody tr {
     background-color: #fff; }
 
 .pagination {
@@ -365,6 +368,22 @@ a {
   width: 4rem;
   height: 4rem;
   background: url(../img/me.jpg) no-repeat center/cover; }
+
+.posts {
+  margin: 0 0 6rem; }
+
+.post {
+  margin: 0 0 6rem; }
+
+.post-title {
+  margin: 0 0 1rem; }
+  .post-title a {
+    color: inherit; }
+
+.post-meta {
+  color: #aaa;
+  margin: -1rem 0 1rem;
+  font-size: 0.875rem; }
 
 .comparsion-wrap {
   display: -ms-flexbox;

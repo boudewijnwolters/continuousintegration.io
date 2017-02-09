@@ -29,7 +29,8 @@
 	}
 
 	img {
-		vertical-align: text-bottom
+		vertical-align: text-bottom;
+		max-width: 100%;
 	}
 
 	ins {
@@ -204,8 +205,8 @@
 		-moz-osx-font-smoothing: auto;
 		-webkit-font-smoothing: auto;
 		background-color: #f2f2f2;
-		color: #333;
-		font-size: 0.9em
+		color: #444;
+		font-size: 0.85em
 	}
 
 	code, kbd, samp {
@@ -217,39 +218,43 @@
 
 	pre {
 		overflow: auto;
-		padding: 1em 1.2em
-	}
+		padding: 1em 1.2em;
 
-	pre code {
-		background: none;
-		font-size: 1em;
-		line-height: 1em
+		code {
+			background: none;
+			font-size: 1em;
+			line-height: 1em
+		}
 	}
 
 	figure {
-		margin-bottom: 2.8em;
-		text-align: center
-	}
+		margin-bottom: 2em;
 
-	figure:first-child {
-		margin-top: 0
-	}
+		img {
+			display: block;
+			margin: 0 auto;
+		}
 
-	figure:last-child {
-		margin-bottom: 0
-	}
+		&:first-child {
+			margin-top: 0
+		}
 
-	figcaption {
-		font-size: 0.8em;
-		margin-top: .875em
+		&:last-child {
+			margin-bottom: 0
+		}
+
+		figcaption {
+			font-size: 0.8em;
+			margin-top: .875em
+		}
 	}
 
 	table {
-		width: 100%
-	}
+		width: 100%;
 
-	table pre {
-		white-space: pre-wrap
+		pre {
+			white-space: pre-wrap
+		}
 	}
 
 	th, td {

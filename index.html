@@ -2,26 +2,31 @@
 layout: default
 ---
 
-<div class="container-ultra">
-	<div class="comparsion-wrap">
-		{% for app in site.data.apps %}
-		<div class="comparsion-card">
-			<img src="/assets/img/apps/{{ app.logo }}" alt="{{ app.name }}">
-			<h3>{{ app.name }}</h3>
-			<p class="app-description">{{ app.description }}</p>
-			<p><a href="{{ app.url }}?ref=continuousintegration.io" target="_blank">Check</a></p>
-		</div>
+
+<div class="container">
+	<div class="posts">
+		{% for post in site.posts %}
+		<article class="post">
+			<h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+			<div class="post-meta">
+				<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+				{{ post.tags }}
+			</div>
+			<div class="post-content">
+				{{ post.content }}
+			</div>
+		</article>
 		{% endfor %}
 	</div>
-	<div class="comparsion-footer">
-		More apps and comparsion table soon...
-	</div>
 </div>
+
+
 
 <section class="about">
 	<div class="container">
 		<span class="about-photo"></span>
-		<p>Hi! I’m Boudewijn Wolters. I created this site to compare most and less popular apps for Continuous Integration and Continuous Delivery. If you found any bug or you know other apps let me know at boudewijn.wolters(at)gmail.com or via
+		<p>Hi! I’m Boudewijn Wolters. I created this site to compare most and less popular apps for Continuous Integration and Continuous Delivery. If you found
+			any bug or you know other apps let me know at boudewijn.wolters(at)gmail.com or via
 			<a href="https://github.com/boudewijnwolters/continuousintegration.io/issues/new" target="_blank">GitHub issue</a>.</p>
 	</div>
 </section>

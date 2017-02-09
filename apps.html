@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="container-ultra">
+	<div class="comparsion-wrap">
+		{% for app in site.data.apps %}
+		<div class="comparsion-card">
+			<img src="/assets/img/apps/{{ app.logo }}" alt="{{ app.name }}">
+			<h3>{{ app.name }}</h3>
+			<p class="app-description">{{ app.description }}</p>
+			<p><a href="{{ app.url }}?ref=continuousintegration.io" target="_blank">Check</a></p>
+		</div>
+		{% endfor %}
+	</div>
+	<div class="comparsion-footer">
+		More apps and comparsion table soon...
+	</div>
+</div>

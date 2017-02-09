@@ -1,13 +1,22 @@
 title: Continuous Integration and Continuous Delivery Apps
 description: The best apps for Continuous Integration and Continuous Delivery
 
-baseurl: 'http://continuousintegration.io'
+baseurl: ''
 url: ''
 port: 3000
 
 twitter_username: CiCdApps
 github_username:  boudewijnwolters
 google_analytics:  'UA-85233914-1'
+
+excerpt_separator: "<!-- more -->"
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
 
 exclude:
     - 'node_modules'
