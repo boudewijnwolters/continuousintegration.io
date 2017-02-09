@@ -12,11 +12,17 @@ google_analytics:  'UA-85233914-1'
 excerpt_separator: "<!-- more -->"
 
 defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
+   -
+      scope:
+         path: ""
+         type: "posts"
+      values:
+         layout: "post"
+   -
+      scope:
+         path: ""
+      values:
+         layout: "default"
 
 exclude:
     - 'node_modules'
